@@ -1,0 +1,15 @@
+{
+	"name": "adf-workspace-100",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6301aa84-5f3e-4e37-9283-a72056cedbf0",
+		"tenantId": "c264d140-f577-40cc-83ea-bafad3ca3a79"
+	}
+}
