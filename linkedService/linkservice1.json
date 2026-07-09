@@ -1,0 +1,12 @@
+{
+	"name": "linkservice1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://testproduction1.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDczREU4RTc5LUIyODItNEMwMi05NzAyLUZBMjdFNkE1QkQwRF9kNTNiNTY3MC0zNzQzLTQ4ZDEtYWU5Mi00ODNhYTc1YTAyOTQiDQp9"
+		}
+	}
+}
