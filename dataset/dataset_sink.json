@@ -1,0 +1,23 @@
+{
+	"name": "dataset_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "links_sink_adls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "clean_dir",
+				"fileSystem": "demo-container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
