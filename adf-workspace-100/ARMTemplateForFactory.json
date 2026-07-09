@@ -98,6 +98,9 @@
 				"policy": {
 					"elapsedTimeMetric": {}
 				},
+				"folder": {
+					"name": "adf_pipeline"
+				},
 				"annotations": []
 			},
 			"dependsOn": [
