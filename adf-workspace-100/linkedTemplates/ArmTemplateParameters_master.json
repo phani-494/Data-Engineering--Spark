@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-workspace-100"
+		},
+		"links_sink_adls_accountKey": {
+			"value": ""
+		},
+		"linkservice1_accountKey": {
+			"value": ""
+		},
+		"links_sink_adls_properties_typeProperties_url": {
+			"value": "https://testproduction1.dfs.core.windows.net/"
+		},
+		"linkservice1_properties_typeProperties_url": {
+			"value": "https://testproduction1.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
